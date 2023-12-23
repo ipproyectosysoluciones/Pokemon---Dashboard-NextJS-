@@ -1,6 +1,6 @@
 
 export { PokemonGrid } from './components/PokemonGrid';
-export { PokemonCart } from './components/PokemonCart';
+export { PokemonCard } from './components/PokemonCard';
 
 export type { PokemonsResponse } from './interfaces/pokemons-response';
 export type { SimplePokemon } from './interfaces/simple-pokemon';
