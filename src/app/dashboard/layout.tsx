@@ -1,4 +1,4 @@
-import { Sidebar } from "../components";
+import { Sidebar } from "../../components";
 
 
 export default function DashboardLayout({
@@ -13,7 +13,7 @@ export default function DashboardLayout({
         
         <Sidebar />
 
-        <div className="p-2 w-full text-slate-900">
+        <div className="w-full text-slate-900">
           { children }
         </div>
 
